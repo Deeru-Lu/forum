@@ -1,0 +1,18 @@
+<template>
+    <div class="col-md-3 list-group">
+        <a href="#" class="list-group-item disabled">用户设置</a>
+        <a href="/settings/profile" class="list-group-item active">基本信息</a>
+        <a href="/settings/admin" class="list-group-item">账户设置</a>
+    </div>
+
+</template>
+
+<script>
+    export default {
+        name: "Settings"
+    }
+</script>
+
+<style scoped>
+
+</style>
